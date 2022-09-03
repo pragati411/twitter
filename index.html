@@ -10,9 +10,6 @@
 
       <link rel="stylesheet" href="style.css">
 
-
-
-
 </head>
 <body>
     <div class="side-bar">
@@ -29,9 +26,6 @@
                 search
                 </span>
                 <h2>Search</h2>
-
-
-
 
 
         </div>
@@ -76,19 +70,11 @@
             </span>
             <h2>More</h2>
 
-
-
-
         </div>
         <div>
             <button class="sidebar-tweet">Tweet</button>
         </div>
         
-        
-
-        
-
-
     </div>
     <!--feed section start-->
 
@@ -104,139 +90,204 @@
                 <img src="student-g81217c839_1280.png" alt="">
                 
                         
-                    <input type="text" placeholder="what's happening">
+                    <input type="text" id="tweeting" placeholder="what's happening">
+                    
+
+                        
 
                 </div>
-                <button class="tweetBox-tweetButton">Tweet</button>
+                
+                    
 
+
+                <button class="tweetBox-tweetButton" id="tweetBox" onclick="take-tweet()">Tweet</button>
+                
             </form>
+            <div id="twitter-box"></div>
 
         </div>
         <!--tweet box ends-->
         <!-- post section-->
-        
+        <div class="post">
             <div class="post-avatar">
                 <img src="student-g81217c839_1280.png" alt="">
-                
-                <div class="post-body">
-                    <div class="post-header">
-                        <div class="headerpostext">
-                            <h3>Pragati Shukla
-                                <span class="post-headerspecial"><span class="material-icons">
+
+            </div>
+            <div class="post-body">
+                <div class="post-header">
+                    <div class="post-headertext">
+                        <h3>
+                            Pragati Shukla 
+                            <span class="post-headerspecial">
+                                <span class="material-icons post-badge" >
                                     check_circle
                                     </span>
 
-
-                                </span>
-
-
-                            </h3>
-
-                        </div>
-                        <div class="post-headerdescription">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi soluta deleniti est consequatur?</p>
-
-                        </div>
+                            </span>
+                        </h3>
 
                     </div>
-                    <img src="student-g81217c839_1280.png" alt="">
-                    <div class="post-footer">
+                    <div class="post-header description">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam id non nihil iusto dolorum.</p>
+
+                    </div>
+
+                </div>
+                <img src="student-g81217c839_1280.png" alt="">
+                <div class="post-footer">
+                    <span class="material-icons">
+                        favorite
+                        </span>
                         <span class="material-icons">
                             repeat
                             </span>
                             <span class="material-icons">
-                                comment_bank
+                                publish
+                                </span>
+
+                </div>
+                    </div>
+                    
+
+                
+
+                </div>
+                <div class="post">
+                    <div class="post-avatar">
+                        <img src="girl-ge274d38a0_1920.jpg" alt="">
+
+                    </div>
+                    <div class="post-body">
+                        <div class="post-header">
+                            <div class="post-headertext">
+                                <h3>
+                                    Jaya Shukla
+                                    <span class="post-headerspecial">
+                                        <span class="material-icons post-badge">
+                                            check_circle
+                                            </span>
+
+                                    </span>
+                                </h3>
+
+
+                            </div>
+                            <div class="post-headerdescription">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus repudiandae perspiciatis aperiam molestiae aliquid!</p>
+
+                            </div>
+
+                        </div>
+                        <img src="girl-ge274d38a0_1920.jpg" alt="">
+                        <div class="post-footer">
+                            <span class="material-icons">
+                                favorite_border
                                 </span>
                                 <span class="material-icons">
-                                    published_with_changes
+                                    restart_alt
                                     </span>
+                                    <span class="material-icons">
+                                        publish
+                                        </span>
+
+                        </div>
 
                     </div>
 
+
+                </div>
+                <div class="post">
+                    <div class="post-avatar">
+                        <img src="animal-g8a7f3dcbf_1920.jpg" alt="">
+
+                    </div>
+                    <div class="post-body">
+                        <div class="post-header">
+                            <div class="post-headertext">
+                                <h3>
+                                    Sandeep Kumar
+                                    <span class="post-headerspecial">
+
+<span class="material-icons post-badge">
+check_circle
+</span>
+                                    </span>
+                                </h3>
+
+                            </div>
+                            <div class="post-headerdescription">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veritatis. Perferendis veritatis nulla iusto.</p>
+
+
+                            </div>
+
+
+                        </div>
+                        <img src="animal-g8a7f3dcbf_1920.jpg" alt="">
+                        <div class="post-footer">
+
+<span class="material-icons">
+favorite_border
+</span>
+<span class="material-icons">
+    restart_alt
+    </span>
+    <span class="material-icons">
+        publish
+        </span>
+    
+                        </div>
+
+                    </div>
+
+                </div>
                 </div>
 
             </div>
-            <div class="post">
-                <div class="post-avatar">
-                    <img src="girl-ge274d38a0_1920.jpg" alt="">
-
 
                 </div>
-                <div class="post-body">
-                    <div class="post-heade
-                    r">
-                        <div class="post-headertext">
-                            <h3>Jaya Shukla
-                                <span class="post-headerspecial">
-                                    <span class="material-icons">
-                                        check_box
-                                        </span>
-
-
-                                </span>
-                            </h3>
-
-                        </div>
-                        <div class="post-headerdescription">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sit natus illo debitis eligendi!</p>
-
-
-                        </div>
-
-                    </div>
-                    <img src="girl-ge274d38a0_1920.jpg" alt="">
-
-
-
-                </div>
-                <div class="post-footer">
-                    <span class="material-icons">
-                        restart_alt
-                        </span>
-                        <span class="material-icons">
-                            favorite
-                            </span>
-                            <span class="material-icons">
-                                published_with_changes
-                                </span>
-
-                </div>
-
+            </div>
+            
             </div>
 
         </div>
-
-    
-
+         
         <!-- post section ends-->
-
         <!-- widgets start-->
         <div class="widgets">
-            <div class="widgets-input"><span class="material-icons">
-                search
+            <div class="widgetspan class="m-icons>
+                
                 </span>
                 <h2>What's Happening</h2>
                 <input type="text" placeholder="Search Twitter"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                 
 
-            </div>
-            
-                
-
+            </div><a class="twitter-timeline" href="https://twitter.com/TwitterDev/lists/national-parks?ref_src=twsrc%5Etfw">A Twitter List by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
             </div>
 
         </div>
         <!-- widgets ends-->
 
-
-
     </div>
-
 
     <!--feed section end-->
     
-
 </body>
+<script src="script.js"></script>
+<script>
+    function take mytweet(){
+        var tweet = document.getElementById('tweetBox').value;
+        if(tweet==""){
+            alert('please type something')
+        }
+        else{
+            alert('you have posted successfully')
+            let P = document.createElement('div')
+            p.innerHTML=tweet
+        }
+        
+    }
+</script>
 </html>
